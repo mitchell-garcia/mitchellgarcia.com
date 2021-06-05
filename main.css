@@ -1,0 +1,11 @@
+body {
+    font-family: "Dank Mono";
+    padding: 15px;
+    text-align:center;
+    font-variant-ligatures: common-ligatures;
+}
+
+h1, h2 {
+    font-weight: normal;
+    font-size: 1em;
+}
