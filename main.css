@@ -11916,6 +11916,10 @@ p {
 }
 
 @media screen and (max-width: 540px) {
+  .Header h2:before {
+    display:none;
+  }
+  
   .Homepage__Biography .container > .Hello.columns {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -11928,7 +11932,7 @@ p {
 
   .Homepage__Biography,
   .MainContainer {
-    padding: 20px;
+    padding: 32px;
     margin: 0;
   }
 
