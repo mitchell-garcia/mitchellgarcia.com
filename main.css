@@ -4,13 +4,16 @@ body {
 
 h1 {
     color: #1e293b;
-    font-family: "Playfair Display", serif;
+    font-family: "Inter", serif;
+    margin-top:12px;
+    font-weight: bold;
 }
 
 h2 {
     font-family: "Inter";
     letter-spacing: -.01em;
     color: rgb(100 116 139);
+    margin-bottom:12px;
 }
 
 p {
