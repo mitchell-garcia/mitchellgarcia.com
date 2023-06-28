@@ -15,27 +15,68 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800"
         rel="stylesheet">
 </head>
 
-<body class="bg-slate-50">
+<body>
 
-    <div class="flex h-screen justify-center items-center">
-        <div class="md:w-2/6 animated fadeInDown text-center" style="max-width:1500px;">
-            <img class="rounded-lg m-0 m-auto block shadow-xl" style="width:200px;" src="./mitch.jpg"
-                    alt="Mitchell Garcia" />
+    <div id="app">
+        <section class="Homepage__Biography">
+            <div class="container">
+                <header class="Header">
+                    <h1><a aria-current="page" class="" href="/">Mitchell Garcia</a></h1>
+                    <h2>Slinging software in Saint Petersburg, FL</h2>
+                </header>
+                <div class="columns Hello">
+                    <div class="column Homepage__Photo">
+                        <img src="mitch.jpg" alt="Me">
+                    </div>
+                    <div class="column is-9">
+                        <span class="MainBigText">
+                            <h3><span class="MainBigText__Intro">Hello, world.</span> I’m Mitchell Garcia - an
+                                experienced software engineer manager dedicated to instilling <span
+                                    class="MainBigText__Red">d</span><span class="MainBigText__Orange">e</span><span
+                                    class="MainBigText__Yellow">l</span><span class="MainBigText__Green">i</span><span
+                                    class="MainBigText__Blue">g</span><span class="MainBigText__Indigo">h</span><span
+                                    class="MainBigText__Violet">t</span> in everything I build.</h3><img class="Tools"
+                                style="display:block;max-width:300px;margin-top:20px"
+                                src="/logos.png" alt="Typescript, React, Vue">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <h1 class="text-3xl">Mitchell Garcia</h1>
-            <h2 class="text-xl">Senior Engineering Manager at <a href="https://tackle.io" class="underline"
-                    target="_blank">Tackle</a>
-            </h2>
-            <p class="mt-4 mb-4">
-                Hello world, I'm Mitchell Garcia - an experienced software engineer manager dedicated to instilling delight in everything I build.</p>
-            <p><a class="underline" href="https://linkedin.com/in/mitchellgarcia" target="_blank">LinkedIn</a> | <a
-                    class="underline" href="https://github.com/mitchell-garcia" target="_blank">Github</a></p>
+        <div class="MainContainer">
+            <section class="PortfolioItem columns undefined undefined" title="Top 100">
+                <div class="column is-6"
+                    style="background-image:url(/tacklebg.png);background-position:center center;background-repeat:no-repeat;background-size:100%">
+                </div>
+                <div class="column is-6 PortfolioItem__Content">
+                    <h4>I'm currently at Tackle (tackle.io)</h4>
+                    <hr>
+                    <p style="margin-bottom:32px">
+                        At Tackle, I spearhead two net new business units: the Co-Sell team and the Salesforce AppExchange team. 
+                    </p>
+                    <p style="margin-bottom:32px">
+                        On the Salesforce AppExchange team, we developed and launched a new product built on the Salesforce platform. I led the team in architecting and developing a solution that addresses key pain points for Tackle ISVs selling with cloud marketplaces.
+                    <p style="margin-bottom:32px">We're just getting started.</p>
+                        
+                    <a href="http://tackle.io/" target="_blank" class="button is-info" style="margin-right:10px">Visit Site</a>
+                </div>
+            </section>
         </div>
+        <footer class="footer" style="background:transparent">
+            <div class="content has-text-centered">
+                <p>This static website was built with <a href="https://www.gatsbyjs.org/">Gatsby</a>, you should use it.
+                    © <!-- -->2023<!-- --> Mitchell Garcia <br><br><a
+                        href="https://www.linkedin.com/in/mitchellgarcia/">LinkedIn</a> | <a
+                        href="https://github.com/mitchell-garcia/mitchellgarcia.com">@mmitchellgarcia</a></p>
+            </div>
+        </footer>
     </div>
+
 </body>
 
 </html>
